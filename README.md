@@ -1,5 +1,18 @@
 # TP Frontend 2019
 
+# Integrantes
+
+*   Fiorenza, Tomas. Legajo: 42022.
+*   Alice, Mauro. Legajo: 40533.
+
+# Enunciado
+Sitio de ventas online
+Se trata de una pagina web de venta de producto
+Se trata de una sistema de gestión de ventas y stock de una distribuidora de golosinas, cuyo alcance para la regularización será :
+1) Lista de todos los productos, con filtro por categoria o nombre.
+2) Pagina con detalle del producto, nombre, descripcion, precio por unidad, categoria e imagen del mismo. En la misma se podra modificar o dar de baja el producto.
+3) En el lista tambien tendra la opcion de agregar un nuevo producto.
+
 ## 1 - Enunciado
 ### 1.1 - Desarrollo
 Crear un nuevo frontend para un sitio que brinde una api pública, utilizando:
