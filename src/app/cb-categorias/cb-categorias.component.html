@@ -1,0 +1,5 @@
+<div class="form-group" *ngIf="categorias">
+    <select class="form-control" name="" id="" >
+      <option *ngFor='let categoria of categorias' [value]="categoria._id">{{categoria.nombre}}</option>
+    </select>
+  </div>
