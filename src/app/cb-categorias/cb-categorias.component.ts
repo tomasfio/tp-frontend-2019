@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Output, EventEmitter } from '@angular/core';
 import { CategoriaService } from "../services/categoria.service";
 
 @Component({
@@ -9,6 +9,7 @@ import { CategoriaService } from "../services/categoria.service";
 export class CbCategoriasComponent implements OnInit {
 
   categorias;
+  @Output() changeCat = new EventEmitter();
   
   constructor(private categoriaSevice: CategoriaService){
 
@@ -20,8 +21,11 @@ export class CbCategoriasComponent implements OnInit {
         res => this.categorias = res['Categorias'],
         err => console.log(err)
       );
+  }
 
-      
+  changeCategoria(e){
+    //console.log(e.target.value);
+    this.changeCat.emit(e.target.value);
   }
 
 }
