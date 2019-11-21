@@ -5,11 +5,13 @@ import { HttpClientModule } from "@angular/common/http";
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { CbCategoriasComponent } from './cb-categorias/cb-categorias.component';
+import { ListProductosComponent } from './list-productos/list-productos.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    CbCategoriasComponent
+    CbCategoriasComponent,
+    ListProductosComponent
   ],
   imports: [
     BrowserModule,
