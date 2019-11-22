@@ -6,7 +6,7 @@ import { ReactiveFormsModule} from '@angular/forms'
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { CbCategoriasComponent } from './cb-categorias/cb-categorias.component';
-import { ListProductosComponent } from './list-productos/list-productos.component';
+import { ListProductosComponent } from './producto/list-productos/list-productos.component';
 import { ProductoComponent } from './producto/producto.component';
 
 @NgModule({
