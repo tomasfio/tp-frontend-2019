@@ -8,13 +8,15 @@ import { AppComponent } from './app.component';
 import { CbCategoriasComponent } from './cb-categorias/cb-categorias.component';
 import { ListProductosComponent } from './producto/list-productos/list-productos.component';
 import { ProductoComponent } from './producto/producto.component';
+import { ProductoDetailComponent } from './producto/producto-detail/producto-detail.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     CbCategoriasComponent,
     ListProductosComponent,
-    ProductoComponent
+    ProductoComponent,
+    ProductoDetailComponent
   ],
   imports: [
     BrowserModule,

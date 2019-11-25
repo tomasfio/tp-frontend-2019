@@ -15,4 +15,8 @@ export class ProductoService {
   getAll(){
     return this.httpClient.get(this.URI);
   }
+
+  getOne(id){
+    return this.httpClient.get(this.URI + id);
+  }
 }
